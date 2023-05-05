@@ -1,0 +1,73 @@
+/********** Template CSS **********/
+:root {
+    --primary: #F77D0A;
+    --secondary: #2B2E4A;
+    --light: #F4F5F8;
+    --dark: #1C1E32;
+}
+
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.font-weight-medium {
+    font-weight: 500 !important;
+}
+.car1,.car2,.car3,.car4,.car5,.car6,.cara1,.cara2,.cara3,.cara4
+,.cara5,.cara6,.cari1,.cari2,.cari3,.cari4,.cari5,.cari6,.carm1,.carm2
+,.carm3,.carm4,.carm5,.carm6,.carm7,.carm8,.carm9,.carp1,.carp2,.carp3,.carp4
+,.carp5,.carp6,.carp7,.carp8,.caro1,.caro2,.caro3,.caro4,.caro5,.caro6{
+  display:none ;
+}
+.nav-item{
+        color: #1ebcd6 !important;
+        font-size: 30px;
+        padding: 10px;
+        margin: 10px ;
+
+}
+.text-primary{
+     color: #1ebcd6 !important;
+     margin-bottom: -15px !important;
+}
+.price{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
+.info{
+     font-size: 21px;
+    color: black;
+}
+
+
+
+
+.rent-item {
+    padding: 30px;
+    text-align: center;
+    background: var(--light);
+    transition: .5s;
+}
+
+.rent-item:hover,
+.rent-item.active {
+    background: var(--secondary);
+}
+
+.rent-item:hover h4,
+.rent-item.active h4 {
+    color: var(--light);
+}
+
+
